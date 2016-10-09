@@ -1,0 +1,87 @@
+{
+    "Orlando": {
+        "Star Wars Celebration": {
+            "logo" : "./images/swcelebration.png",
+            "video": "https://www.youtube.com/embed/UgpLRHngW-s",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-domestic"
+        },
+        "Spooky Empire": {
+            "logo": "./images/spookyempire.png",
+            "video": "https://www.youtube.com/embed/EaQechX3gRU",
+            "more": "http://www.the11th-hour.com/?videoscategory=conventions"
+        }
+    },
+    "New York City": {
+        "Play Fair": {
+            "logo": "./images/playfair.png",
+            "video": "https://www.youtube.com/embed/fGfRRvwmJ64",
+            "more": "http://www.the11th-hour.com/?videoscategory=leftfield-media"
+        },
+        "NYCC": {
+            "logo": "./images/nycc.png",
+            "video": "https://www.facebook.com/video/embed?video_id=10153910967415579",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-domestic"
+        },
+        "New York Super Week": {
+            "logo": "./images/nysuperweek.png",
+            "video": "https://www.facebook.com/video/embed?video_id=1715453395343538",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-domestic"
+        }
+    },
+    "Mumbai": {
+        "Mumbai Film and Comic Con": {
+            "logo": "./images/mumbaicomiccon.png",
+            "video": "https://www.facebook.com/video/embed?video_id=1106749152690373",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-global"
+        }
+    },
+    "Washington DC": {
+        "Awesome Con": {
+            "logo": "./images/awesomecon.png",
+            "video": "https://www.facebook.com/video/embed?video_id=1151843048223603",
+            "more": "http://www.the11th-hour.com/?videoscategory=leftfield-media"
+        }
+    },
+    "Delhi": {
+        "Delhi Comic Con": {
+            "logo": "./images/delhicomiccon.png",
+            "video": "https://www.facebook.com/video/embed?video_id=1117914828240472",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-global"
+        }
+    },
+    "Hyderabad": {
+        "Hyderabad Comic Con": {
+            "logo": "./images/hyderabadcomiccon.png",
+            "video": "https://www.facebook.com/video/embed?video_id=1044853028879986",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-global"
+        }
+    },
+    "Chicago": {
+        "C2E2": {
+            "logo": "./images/c2e2.png",
+            "video": "https://www.youtube.com/embed/TfQJzK13apI",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-domestic"
+        }
+    },
+    "Beijing": {
+        "Beijing Comic Con": {
+            "logo": "./images/beijingcomiccon.png",
+            "video": "http://player.youku.com/embed/XMTcwNjA0MDA2NA==",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-global"
+        }
+    },
+    "Dhaka": {
+        "Dhaka Comiccon": {
+            "logo": "./images/dhakacomiccon.png",
+            "video": "https://www.youtube.com/embed/YgA1jOhoM5Y",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-global"
+        }
+    },
+    "Pune": {
+        "Pune Comic Con Express": {
+            "logo": "./images/punecomiccon.png",
+            "video": "https://www.facebook.com/video/embed?video_id=1219030901462197",
+            "more": "http://www.the11th-hour.com/?videoscategory=reedpop-global"
+        }
+    }
+}
