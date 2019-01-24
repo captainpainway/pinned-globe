@@ -1,16 +1,17 @@
 body {
-    background-color: #333;
     margin: 0px;
     overflow: hidden;
+    background: transparent;
 }
 #container {
     position: absolute;
     width: 100%;
-    max-width: 892px;
-    height: 600px;
+    height: 100%;
+    /*max-width: 892px;
+    height: 600px;*/
     top: 0px;
     left: 0px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 #info {
     position: absolute;

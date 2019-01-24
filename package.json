@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "compile": "babel js/script.js --out-file js/compiled.js"
+    "compile": "babel js/script.js --out-file js/compiled.js"
   },
   "author": "",
   "license": "ISC",

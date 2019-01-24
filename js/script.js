@@ -103,14 +103,18 @@ class Scene {
             200
         );
         this.camera.position.set(0, 5, 10);
-        this.renderer = new THREE.WebGLRenderer({ antialias: true });
-        this.renderer.setClearColor(0xffffff);
+        this.renderer = new THREE.WebGLRenderer({
+            antialias: true,
+            alpha: true
+        });
+        // this.renderer.setClearColor(0xffffff);
         this.renderer.setPixelRatio(window.devicePixelRatio);
 		this.container.appendChild(this.renderer.domElement);
         this.controls = new THREE.OrbitControls(
             this.camera,
             this.renderer.domElement
         );
+        this.controls.enableDamping = true;
         this.scene.add(this.camera);
         this.container.addEventListener( 'mousedown', this.mouseClick.bind(this), false );
         this.container.addEventListener( 'mousemove', this.mouseOver.bind(this), false );
@@ -249,6 +253,7 @@ class Scene {
         requestAnimationFrame(() => {
             this.animate();
         });
+        this.controls.update();
         if(infoShown === true) {
             if(vidShown === true) {
                 this.info.style.display = 'none';
@@ -256,7 +261,6 @@ class Scene {
                 this.info.style.display = 'block';
             }
         }
-        this.controls.update();
         window.addEventListener('resize', this.resize(), false);
         this.render();
     }
